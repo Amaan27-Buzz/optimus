@@ -1,0 +1,11 @@
+[package]
+name = "optimus-cli"
+description = "Developer command-line interface for Optimus"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+optimus-core = { path = "../optimus-core" }
+
+[lints]
+workspace = true

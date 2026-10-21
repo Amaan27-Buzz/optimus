@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["crates/optimus-core", "crates/optimus-cli"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"

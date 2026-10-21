@@ -1,0 +1,13 @@
+/target/
+*.pdb
+*.etl
+*.log
+*.blob
+*.gguf
+*.safetensors
+/models/
+/data/
+/benchmarks/raw/
+.vscode/
+.idea/
+.DS_Store

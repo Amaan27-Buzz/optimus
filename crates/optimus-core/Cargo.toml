@@ -1,0 +1,8 @@
+[package]
+name = "optimus-core"
+description = "Reference tensor and memory primitives for Optimus"
+version.workspace = true
+edition.workspace = true
+
+[lints]
+workspace = true
